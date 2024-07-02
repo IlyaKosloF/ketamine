@@ -88,3 +88,32 @@ cd ketamine
 sudo sh setup.sh
 
 sudo python3 ketamine.py
+
+![image](https://github.com/IlyaKosloF/ketamine/assets/174350287/0f4a39dd-4912-4144-961e-cda7410958da)
+
+-h
+
+![image](https://github.com/IlyaKosloF/ketamine/assets/174350287/770e8632-eadf-412d-bf2e-bda8ec3facfb)
+
+
+# Port Scans
+
+Scanning ports helps detect potential security breaches by identifying the hosts connected to your network and the services running.
+
+Multiple scan types are supported, including TCP SYN (-scansyn) [also known as stealth scan], TCP Connect (-scantcp), UDP (-scanudp), TCP ACK (-scanack) and comprehensive scan (-scan).
+
+-scan -host <HOST(s) IP/FQDN>
+
+-scan -host <HOST(s) IP/FQDN> -p <PORT(s)>
+
+If you wish to scan a IP range and/or port range, use one of the following commands:
+
+-scan -host <HOST(s) IP/FQDN> -prange <START PORT> <END PORT>
+
+-scan -iprange <START IP> <END IP> -p <PORT(s)>
+
+-scan -iprange <START IP> <END IP> -prange <START PORT> <END PORT>
+
+![image](https://github.com/IlyaKosloF/ketamine/assets/174350287/bf5e28dd-f512-4824-afdc-c6fef7c4766f)
+
+
