@@ -87,4 +87,4 @@ cd ketamine
 
 sudo sh setup.sh
 
-sudo python3 hawk.py
+sudo python3 ketamine.py
